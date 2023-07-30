@@ -96,3 +96,6 @@ search_label.pack()
 
 search_entry = tk.Entry(app)
 search_entry.pack()
+
+search_button = tk.Button(app, text="Search:", command=search_entry, bg="#007BFF", fg="white")
+search_button.pack()
