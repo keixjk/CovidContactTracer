@@ -59,5 +59,8 @@ app.configure(bg="#f0f0f0")
 label_style = {"bg": "f0f0f0", "fg": "#333333", "font": ("Helvetica", 14)}
 
 name_label = tk.Label(app, text="Name:", **label_style)
-name.label.pack()
+name_label.pack()
+
+name_entry = tk.Entry(app)
+name_entry.pack()
 
