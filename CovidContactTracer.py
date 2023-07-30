@@ -24,4 +24,7 @@ def add_entry():
         file.write(json.dumps(entry) + "\n")
 
     messagebox.showinfo("Success", "Entry added succesfully!")
-    
+
+def search_entry():
+    # Get the name to search for
+    search_name = search_entry.get()
