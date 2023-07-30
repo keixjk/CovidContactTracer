@@ -74,4 +74,7 @@ email_label = tk.Label(app, text="Email:", **label_style)
 email_label.pack()
 
 email_entry = tk.Entry(app)
-email_entry.pack
+email_entry.pack()
+
+date_label = tk.Label(app, text="Date of Contact:", **label_style)
+date_label.pack()
