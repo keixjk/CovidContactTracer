@@ -28,3 +28,11 @@ def add_entry():
 def search_entry():
     # Get the name to search for
     search_name = search_entry.get()
+
+    # Search for the name in the file
+    found_entries = []
+    with open ("contacts.json", "r") as file:
+        for line in file:
+            entry = json.loads(line)
+            if entry ["Name"] == search_name:
+                found_entries.append(entry)
