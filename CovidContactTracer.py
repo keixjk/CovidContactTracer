@@ -49,5 +49,8 @@ def search_entry():
 app = tk.Tk()
 app.title("COVID Contact Tracing App")
 
-# Set window sizwe
+# Set window size
 app.geometry("400x400")
+
+# Set background color
+app.configure(bg="#f0f0f0")
