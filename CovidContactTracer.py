@@ -54,3 +54,6 @@ app.geometry("400x400")
 
 # Set background color
 app.configure(bg="#f0f0f0")
+
+# Styling for labels
+label_style = {"bg": "f0f0f0", "fg": "#333333", "font": ("Helvetica", 14)}
