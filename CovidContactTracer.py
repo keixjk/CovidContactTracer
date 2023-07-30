@@ -78,3 +78,7 @@ email_entry.pack()
 
 date_label = tk.Label(app, text="Date of Contact:", **label_style)
 date_label.pack()
+
+date_entry = tk.Entry(app)
+date_entry.pack()
+
