@@ -90,3 +90,6 @@ location_entry.pack()
 
 add_button = tk.Button(app, text="Add Entry", command=add_entry, bg="#4CAF50", fg="white")
 add_button.pack(pady=10)
+
+search_label = tk.Label(app, text="Search by Name:", **label_style)
+search_label.pack()
