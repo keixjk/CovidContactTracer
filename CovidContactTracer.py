@@ -18,3 +18,7 @@ def add_entry():
         "Date": date,
         "Location": location
     }
+
+    # Write the entry to a JSON file
+    with open("contacts.json", "a") as file:
+        file.write(json.dumps(entry) + "\n")
