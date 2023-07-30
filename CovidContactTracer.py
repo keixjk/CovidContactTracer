@@ -64,3 +64,5 @@ name_label.pack()
 name_entry = tk.Entry(app)
 name_entry.pack()
 
+phone_label = tk.Label(app, text="Phone:", **label_style)
+phone_label.pack()
