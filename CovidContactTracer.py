@@ -87,3 +87,6 @@ location_label.pack()
 
 location_entry = tk.Entry(app)
 location_entry.pack()
+
+add_button = tk.Button(app, text="Add Entry", command=add_entry, bg="#4CAF50", fg="white")
+add_button.pack(pady=10)
