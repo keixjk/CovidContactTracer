@@ -36,3 +36,9 @@ def search_entry():
             entry = json.loads(line)
             if entry ["Name"] == search_name:
                 found_entries.append(entry)
+
+    # Display the search results
+    if found_entries:
+        messagebox.showinfo("Search Results", f"Found {len(found_entries)} entries:\n{found_entries}")
+    else:
+        messagebox.showinfo("Search Results", "No entries found.")
