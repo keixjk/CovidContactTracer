@@ -48,3 +48,6 @@ def search_entry():
 # Setting app and app title
 app = tk.Tk()
 app.title("COVID Contact Tracing App")
+
+# Set window sizwe
+app.geometry("400x400")
