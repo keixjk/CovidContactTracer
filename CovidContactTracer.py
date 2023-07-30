@@ -42,3 +42,9 @@ def search_entry():
         messagebox.showinfo("Search Results", f"Found {len(found_entries)} entries:\n{found_entries}")
     else:
         messagebox.showinfo("Search Results", "No entries found.")
+
+# GUI setup
+
+# Setting app and app title
+app = tk.Tk()
+app.title("COVID Contact Tracing App")
