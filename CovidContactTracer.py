@@ -70,3 +70,5 @@ phone_label.pack()
 phone_entry = tk.Entry(app)
 phone_entry.pack()
 
+email_label = tk.Label(app, text="Email:", **label_style)
+email_label.pack()
