@@ -9,3 +9,12 @@ def add_entry():
     email = email_entry.get()
     date = date_entry.get()
     location = location_entry.get()
+
+    # Create a dictionary with the collected information
+    entry = {
+        "Name": name,
+        "Phone": phone,
+        "Email": email,
+        "Date": date,
+        "Location": location
+    }
