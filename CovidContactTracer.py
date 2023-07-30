@@ -22,3 +22,6 @@ def add_entry():
     # Write the entry to a JSON file
     with open("contacts.json", "a") as file:
         file.write(json.dumps(entry) + "\n")
+
+    messagebox.showinfo("Success", "Entry added succesfully!")
+    
