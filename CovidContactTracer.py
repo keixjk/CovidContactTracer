@@ -84,3 +84,6 @@ date_entry.pack()
 
 location_label = tk.Label(app, text="Location:", **label_style)
 location_label.pack()
+
+location_entry = tk.Entry(app)
+location_entry.pack()
